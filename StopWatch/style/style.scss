@@ -1,0 +1,38 @@
+@import "variables.scss";
+
+.container {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 100px 0 0 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $bgcolor;
+  color: $white;
+  font-size: 40px;
+  p {
+    margin: 10px;
+  }
+  &__wrapp {
+    &__buttons {
+      width: 100px;
+      height: 30px;
+      margin-right: 5px;
+      border: 2px solid $white;
+      @include corners(5px);
+      text-decoration: none;
+      background-color: $green;
+      color: $white;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 15px;
+      font-weight: 800;
+
+      &:hover {
+        @include transition;
+        background-color: $white;
+        color: black;
+      }
+    }
+  }
+}

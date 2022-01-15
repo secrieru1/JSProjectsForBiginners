@@ -1,0 +1,20 @@
+.clock {
+  width: 700px;
+  height: 200px;
+  margin: 50px 0 0 50px;
+  padding: 0;
+  background-color: black;
+  color: #070aa7;
+  font-family: Orbitron;
+  font-size: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

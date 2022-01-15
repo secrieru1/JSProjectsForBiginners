@@ -1,0 +1,14 @@
+/* Variables */
+
+$green: rgb(55, 168, 74);
+$white: #fff;
+$bgcolor: $green;
+
+/* Mixin's */
+@mixin transition {
+  transition: all 0.4s ease-in-out;
+}
+
+@mixin corners($radius) {
+  border-radius: $radius;
+}

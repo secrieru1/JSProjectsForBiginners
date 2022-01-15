@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+.clock {
+  width: 700px;
+  height: 200px;
+  margin: 50px 0 0 50px;
+  padding: 0;
+  background-color: black;
+  color: $blue;
+  @include font;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
